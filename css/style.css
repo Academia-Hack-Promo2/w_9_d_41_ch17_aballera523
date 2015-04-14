@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.enlace:visited {
+    color: whitesmoke;
+}
+
+.enlace:hover {
+    color: blue;
+}
+
+.enlace:active {
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: #3689dd;
+    font-family: cursive;
+    text-shadow: 2px 2px 3px #000;
+}
+
+nav {
+    text-align: right;
+    background-color: #568977;
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex .columna {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    margin: 3em;
+}
+
+.conten-foto {
+    width: 49%;
+    height: 300px;
+    display: inline;
+    text-align: right;
+}
+
+.conten-foto img {
+    vertical-align: middle;
+}
+
+.conten_datos {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    color: #333;
+    text-rendering: geometricPrecision;
+}
+
+.conten-datos label {
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.menu li a {
+    color: #fefefe;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px #000;
+}
+
+#datos {
+    background-image: url(../../oscar_cv_html/img/background.png);
+}
+
+#contacto {
+    background-color: #235689;
+}
+
+#contacto article {
+    width: 49%;
+    padding: 16px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#datos {
+    border-bottom: 8px solid blue;
+}
+
+#sumario {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#estudios {
+    border-top: 8px solid blue;
+}
+
+#experiencia {
+    border-top: 8px solid blue;
+}
+
+#referencias {
+    border-top: 8px solid blue;
+}
+
+.conten-input input,
+textArea {
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
